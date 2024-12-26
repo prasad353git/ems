@@ -1,0 +1,35 @@
+html,body{overflow-x:hidden;}
+.r{background-color:red;}
+.reg{float:left; position:absolute; margin-top:60px; margin-left:8px;}
+.log{float:left; position:absolute; right:12px;  margin-top:60px;}
+.reg a,.log a{text-decoration:none; color:#fff; font-weight: bold;}
+input[type=text],input[type=password], select, textarea { width: 100%; padding: 12px; border: 1px rgb(255, 81, 0);box-shadow: 0px 1px 2px 0px rgba(0,0,0,1.0); border-radius: 4px; }
+.padding{padding-left:5%; padding-top:5%;}
+.box{position:absolute; top:8%; padding:3%; width:50%; font-size:20px; background-color:rgba(255,255,255,0.800); box-shadow: 0px 8px 16px 0px rgba(0,0,0,1.0); border-radius:15px;}
+.mybtn{width:25%; padding: 2%; margin-top:2%; background-color:springgreen; color:white; border:none; border-radius:15px; box-shadow:0px 3px 8px 0px rgba(0,0,0,1.0);}
+.mybtn:hover{background-color:chartreuse; box-shadow: 0px 8px 16px 0px rgba(0,0,0,1.0);}
+.redbtn{width:25%; padding: 2%; margin-top:2%; background-color:red; color:white; border:none; border-radius:15px; box-shadow:0px 3px 8px 0px rgba(0,0,0,1.0);}
+.redbtn:hover{background-color:darkred; box-shadow: 0px 8px 16px 0px rgba(0,0,0,1.0);}
+.loghead{padding:5%; color:red; border:15px; text-align: center;}
+.wn img{width:50%; height:30%;}
+.tabdesk img{height:70%;width:60%; cursor:pointer;}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+@media (max-width: 600px) {
+        .wn img{width:85%;}
+        .tabdesk img{height:70%;width:100%;}
+        .box{width:90%;}
+        .mybtn,.redbtn{width:100%; border-radius:10px;}
+    }
